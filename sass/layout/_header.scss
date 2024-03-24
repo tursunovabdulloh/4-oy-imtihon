@@ -1,0 +1,36 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 28px;
+  margin-bottom: 165px;
+}
+.logo-text {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 900;
+}
+.logo_span {
+  color: #c7f2ff;
+}
+.nav-list {
+  padding-top: 15px;
+  display: flex;
+  gap: 40px;
+}
+.nav-item {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  color: #ebf4f3;
+}
+.nav-link {
+  color: #ebf4f3;
+}
+.nav-link:hover {
+  color: red;
+}
+.nav-link:active {
+  color: #af34bd;
+}
