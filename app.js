@@ -1,13 +1,16 @@
 // 1. Berilgan stiring ichidan olib tashlanishi kerak bo’lgan stringni birinchi uchraganini olib tashlang.
+// function ortiqcha(str, value) {
+//   return str.replace(value);
+// }
 
+// console.log(ortiqcha("sonlar", "son")); boldi
 // 2. Birinchi va so’ngi burchali qavslarni olib tashlang.
 // example
-/*
- *   '<div>' => 'div'
- *   '<span>' => 'span'
- *   '<a>' => 'a'
- */
 
+// function kes(string) {
+//   return string.slice(1, -1);
+// }
+// console.log(kes("<div>"));
 // 3.
 // Example
 /*
@@ -20,29 +23,29 @@
  *   16 => false
  *   17 => true
  */
-
-// function isPrime(n) {
-//   let n = son;
-//   if (son) {
-//   } else {
+// function tekshir(n) {
+//   {
+//     if (n % 2 == 0) {
+//       return false;
+//     }
 //   }
+//   return true;
 // }
-// console.log(isPrime(5));
-// ​
+// console.log(tekshir(55));
 // 4. Berilgan array ichidagi ma’lumotlardan yangi object yasab qaytaring. Functionga so’ralgan argumentlar kiritish orqali.
 // Example
 
-function group(array, keySelector, valueSelector) {
-  let arr = [
-    { country: "Belarus", city: "Brest" },
-    { country: "Russia", city: "Omsk" },
-    { country: "Russia", city: "Samara" },
-    { country: "Belarus", city: "Grodno" },
-    { country: "Belarus", city: "Minsk" },
-    { country: "Poland", city: "Lodz" },
-  ];
-}
-console.log(arr);
+// function group(array, keySelector, valueSelector) {
+//   let arr = [
+//     { country: "Belarus", city: "Brest" },
+//     { country: "Russia", city: "Omsk" },
+//     { country: "Russia", city: "Samara" },
+//     { country: "Belarus", city: "Grodno" },
+//     { country: "Belarus", city: "Minsk" },
+//     { country: "Poland", city: "Lodz" },
+//   ];
+// }
+// console.log(arr);
 // 5. n1 va n2 orasidagi butun sonlar yig‘indisini qaytaring.  bo'ldi
 // Example
 /*
@@ -93,11 +96,15 @@ console.log(arr);
 // 3. Abdulfattoh Abu G'uddaning "Vaqtning qadri" kitobi o'qilmagan;
 // ​
 // // 10. Mahsulotlar massividagi objectlarni sonini, chegirmasini hisobga olib, umumiy summani hisoblang.
-// // Input:
-// const products = [
+// Input:
+// let products = [
 //   { name: "Product 1", price: 20000, discount: 10, quantity: 5 },
 //   { name: "Product 2", price: 10000, discount: 20, quantity: 4 },
 //   { name: "Product 3", price: 15000, discount: 8, quantity: 10 },
 //   { name: "Product 4", price: 18000, discount: 5, quantity: 6 },
 //   { name: "Product 5", price: 5000, discount: 10, quantity: 16 },
 // ];
+// let prod = products.reduce((prod, n) => {
+//   return prod + n.price + n.discount + n.quantity;
+// }, 0);
+// console.log(`jami - ${prod}som`);
