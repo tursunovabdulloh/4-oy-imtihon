@@ -4,6 +4,10 @@
   justify-content: space-between;
   padding-top: 28px;
   margin-bottom: 165px;
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .logo-text {
   color: #fff;
