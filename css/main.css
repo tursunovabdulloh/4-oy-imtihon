@@ -154,13 +154,21 @@ a {
   color: #af34bd;
 }
 
+@media (max-width: 1200px) {
+  .main-container {
+    padding-bottom: 500px;
+  }
+}
+
 .main-section-1 {
   display: flex;
   gap: 330px;
 }
 @media (max-width: 1200px) {
   .main-section-1 .main-section-1 {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -173,9 +181,10 @@ a {
   .text_content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 500px;
-    justify-content: flex-start;
+    margin: auto;
+    justify-content: flex-end;
   }
 }
 
@@ -239,6 +248,12 @@ a {
 .content {
   background: rgb(0, 0, 0);
   background: linear-gradient(165deg, rgb(52, 201, 182) 63%, rgba(33, 97, 41, 0) 63%);
+}
+@media (max-width: 1200px) {
+  .content {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(165deg, rgb(52, 201, 182) 63%, rgba(33, 97, 41, 0) 63%);
+  }
 }
 
 .img_content {
@@ -532,8 +547,15 @@ a {
 }
 
 @media (max-width: 1200px) {
-  .oxirgi-container .oxirgi-container {
-    display: none;
+  .deck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .deck .last-section-btn {
+    margin-left: 100px;
   }
 }
 
