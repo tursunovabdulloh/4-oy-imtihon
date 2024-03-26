@@ -1,10 +1,10 @@
 // 1. Berilgan stiring ichidan olib tashlanishi kerak bo’lgan stringni birinchi uchraganini olib tashlang.
-// function ortiqcha(str, value) {
-//   return str.replace(value);
-// }
+function ortiqcha(str, value) {
+  return str.trim(value);
+}
 
-// console.log(ortiqcha("sonlar", "son"));
-// boldi;
+console.log(ortiqcha("sonlar", "son"));
+boldi;
 // 2. Birinchi va so’ngi burchali qavslarni olib tashlang.
 // example
 
@@ -98,14 +98,14 @@
 // ​
 // // 10. Mahsulotlar massividagi objectlarni sonini, chegirmasini hisobga olib, umumiy summani hisoblang.
 // Input:
-let products = [
-  { name: "Product 1", price: 20000, discount: 10, quantity: 5 },
-  { name: "Product 2", price: 10000, discount: 20, quantity: 4 },
-  { name: "Product 3", price: 15000, discount: 8, quantity: 10 },
-  { name: "Product 4", price: 18000, discount: 5, quantity: 6 },
-  { name: "Product 5", price: 5000, discount: 10, quantity: 16 },
-];
-let prod = products.reduce((prod, n) => {
-  return prod + n.price + n.discount + n.quantity;
-}, 0);
-console.log(`jami - ${prod}so'm`);
+// let products = [
+//   { name: "Product 1", price: 20000, discount: 10, quantity: 5 },
+//   { name: "Product 2", price: 10000, discount: 20, quantity: 4 },
+//   { name: "Product 3", price: 15000, discount: 8, quantity: 10 },
+//   { name: "Product 4", price: 18000, discount: 5, quantity: 6 },
+//   { name: "Product 5", price: 5000, discount: 10, quantity: 16 },
+// ];
+// let prod = products.reduce((prod, n) => {
+//   return prod + n.price + n.discount + n.quantity;
+// }, 0);
+// console.log(`jami - ${prod}so'm`);

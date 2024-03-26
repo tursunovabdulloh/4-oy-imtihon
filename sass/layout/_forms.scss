@@ -85,12 +85,14 @@
     rgba(33, 97, 41, 0) 63%
   );
   @media (max-width: 1200px) {
-    // background: rgb(52, 201, 182);
-    // background: linear-gradient(
-    //   166deg,
-    //   rgba(52, 201, 182, 1) 65%,
-    //   rgba(33, 42, 40, 0) 67%
-    // );
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      165deg,
+      rgb(52, 201, 182) 63%,
+      rgba(33, 97, 41, 0) 63%
+    );
+  }
+  @media (max-width: 3750px) {
     background: rgb(0, 0, 0);
     background: linear-gradient(
       165deg,

@@ -134,6 +134,11 @@ a {
   display: flex;
   gap: 40px;
 }
+@media (max-width: 375px) {
+  .nav-list {
+    display: none;
+  }
+}
 
 .nav-item {
   font-family: "Roboto";
@@ -250,6 +255,12 @@ a {
   background: linear-gradient(165deg, rgb(52, 201, 182) 63%, rgba(33, 97, 41, 0) 63%);
 }
 @media (max-width: 1200px) {
+  .content {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(165deg, rgb(52, 201, 182) 63%, rgba(33, 97, 41, 0) 63%);
+  }
+}
+@media (max-width: 3750px) {
   .content {
     background: rgb(0, 0, 0);
     background: linear-gradient(165deg, rgb(52, 201, 182) 63%, rgba(33, 97, 41, 0) 63%);
