@@ -4,7 +4,7 @@
   @media (max-width: 1200px) {
     .main-section-1 {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
     }
   }
@@ -14,10 +14,11 @@
   flex-direction: column;
   gap: 30px;
   @media (max-width: 1200px) {
-    .text_content {
-      display: none;
-      justify-content: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 500px;
+    justify-content: flex-end;
   }
 }
 .buttons {
@@ -254,6 +255,9 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  @media (max-width: 1200px) {
+    display: none;
+  }
 }
 .birinchi_rasm {
   position: absolute;
@@ -327,5 +331,12 @@
 .img_content {
   @media (max-width: 1200px) {
     display: none;
+  }
+}
+.oxirgi-container {
+  @media (max-width: 1200px) {
+    .oxirgi-container {
+      display: ;
+    }
   }
 }

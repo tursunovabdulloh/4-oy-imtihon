@@ -160,9 +160,7 @@ a {
 }
 @media (max-width: 1200px) {
   .main-section-1 .main-section-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
   }
 }
 
@@ -172,9 +170,12 @@ a {
   gap: 30px;
 }
 @media (max-width: 1200px) {
-  .text_content .text_content {
-    display: none;
-    justify-content: center;
+  .text_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 500px;
+    justify-content: flex-start;
   }
 }
 
@@ -438,6 +439,11 @@ a {
   flex-direction: column;
   position: relative;
 }
+@media (max-width: 1200px) {
+  .imdiv {
+    display: none;
+  }
+}
 
 .birinchi_rasm {
   position: absolute;
@@ -521,6 +527,12 @@ a {
 
 @media (max-width: 1200px) {
   .img_content {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .oxirgi-container .oxirgi-container {
     display: none;
   }
 }
